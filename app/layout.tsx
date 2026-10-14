@@ -27,6 +27,9 @@ export const metadata: Metadata = {
       "Step-by-step tech guides: Wi-Fi fixes, security, phones, smart home and buying advice. Browse all 25 tested how-to guides today.",
   },
   robots: { index: true, follow: true },
+  other: {
+    "google-adsense-account": "ca-pub-4906207495792820",
+  },
 };
 
 const NAV = [
@@ -121,7 +124,11 @@ export default function RootLayout({
           <div className="border-t border-[#1c2b21]">
             <p className="mono mx-auto max-w-6xl px-4 py-4 text-xs text-[#7d8f85]">
               © 2026 LoanPay Tech · tech.loanpaylogic.com ·{" "}
-              <span className="text-[#34f27b]">status: all systems nominal</span>
+              <span className="text-[#34f27b]">status: all systems nominal</span> · network:{" "}
+              <a href="https://loanpaylogic.com" className="underline text-[#34f27b]">loanpaylogic.com</a> ·{" "}
+              <a href="https://career.loanpaylogic.com" className="underline">career</a> ·{" "}
+              <a href="https://home.loanpaylogic.com" className="underline">home</a> ·{" "}
+              <a href="https://business.loanpaylogic.com" className="underline">business</a>
             </p>
           </div>
         </footer>
