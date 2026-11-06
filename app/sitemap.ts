@@ -29,6 +29,7 @@ const ROUTES = [
   "/home-office-tech-setup",
   "/cloud-storage-compared",
   "/browser-privacy-settings-guide",
+  "/phone-overheating-fix-guide",
   "/about",
   "/contact",
   "/privacy-policy",
