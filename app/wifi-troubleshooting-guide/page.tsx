@@ -238,6 +238,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/speed-up-slow-computer">Speed Up a Slow Computer</Link> — rule out the device before blaming the network.
+            </li>
+            <li>
+              <Link className="underline" href="/video-call-setup-guide">Video Call Setup Guide</Link> — tune calls once the network is stable.
+            </li>
+            <li>
+              <Link className="underline" href="/smart-tv-setup-guide">Smart TV Setup Guide</Link> — fix buffering on the biggest screen in the house.
+            </li>
+            <li>
+              <Link className="underline" href="/home-office-tech-setup">Home Office Tech Setup</Link> — build a work-from-home network that holds up.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Microsoft Support (Windows network reset and
         Wi-Fi fix documentation); Apple Support (recommended Wi-Fi settings); router

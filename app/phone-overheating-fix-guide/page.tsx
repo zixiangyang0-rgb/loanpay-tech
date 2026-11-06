@@ -252,6 +252,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/extend-phone-battery-guide">Extend Phone Battery Life</Link> — heat and drain share the same culprits.
+            </li>
+            <li>
+              <Link className="underline" href="/free-up-phone-storage">Free Up Phone Storage</Link> — a stuffed phone works harder and hotter.
+            </li>
+            <li>
+              <Link className="underline" href="/speed-up-slow-computer">Speed Up a Slow Computer</Link> — thermal throttling hits PCs the same way.
+            </li>
+            <li>
+              <Link className="underline" href="/bluetooth-pairing-fix">Bluetooth Pairing Fix</Link> — drop stuck accessories that keep radios awake.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Apple Support (keeping iPhone within
         acceptable operating temperatures); Google Support (Pixel temperature

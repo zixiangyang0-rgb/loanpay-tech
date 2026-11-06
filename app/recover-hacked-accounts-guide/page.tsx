@@ -195,6 +195,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/password-manager-guide">Password Manager Guide</Link> — rebuild every account on unique passwords.
+            </li>
+            <li>
+              <Link className="underline" href="/two-factor-auth-setup-guide">Two-Factor Auth Setup</Link> — lock the recovered accounts with 2FA.
+            </li>
+            <li>
+              <Link className="underline" href="/email-scams-to-avoid">Email Scams to Avoid</Link> — learn the trick that got you, avoid the next one.
+            </li>
+            <li>
+              <Link className="underline" href="/backup-guide-3-2-1">3-2-1 Backup Guide</Link> — save recovery codes before you need them.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Google Account Help (hacked-account
         recovery); Apple Support (account recovery); Microsoft Support (account

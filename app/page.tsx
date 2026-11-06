@@ -140,6 +140,24 @@ export default function Home() {
           <p><span className="text-[#34f27b]">about us?</span> <Link className="cmd-link" href="/about">team + method</Link> · <Link className="cmd-link" href="/contact">contact</Link> · <Link className="cmd-link" href="/privacy-policy">privacy</Link></p>
         </div>
       </section>
+
+      <nav aria-label="Related guides" className="mt-12 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+          <li>
+            <Link className="underline" href="/password-manager-guide">Password Manager Guide</Link> — unique passwords everywhere in 20 minutes.
+          </li>
+          <li>
+            <Link className="underline" href="/two-factor-auth-setup-guide">Two-Factor Auth Setup</Link> — the second lock every account needs.
+          </li>
+          <li>
+            <Link className="underline" href="/backup-guide-3-2-1">3-2-1 Backup Guide</Link> — three copies, two media, one off-site.
+          </li>
+          <li>
+            <Link className="underline" href="/wifi-troubleshooting-guide">Wi-Fi Troubleshooting</Link> — the most-visited fix on this site.
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }

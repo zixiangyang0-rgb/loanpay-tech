@@ -169,6 +169,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/google-drive-basics">Google Drive Basics</Link> — master Drive after comparing the field.
+            </li>
+            <li>
+              <Link className="underline" href="/backup-guide-3-2-1">3-2-1 Backup Guide</Link> — cloud is the off-site leg of every backup.
+            </li>
+            <li>
+              <Link className="underline" href="/gmail-organization-tips">Gmail Organization Tips</Link> — Drive plus Gmail is one tidy system.
+            </li>
+            <li>
+              <Link className="underline" href="/cutting-cable-streaming-guide-2026">Cutting Cable in 2026</Link> — the same compare-everything method for streaming.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: official provider pricing and support pages
         (Google One, iCloud+, OneDrive, Dropbox) — verify current quotas and prices

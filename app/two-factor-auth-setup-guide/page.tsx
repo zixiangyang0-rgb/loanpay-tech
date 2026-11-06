@@ -218,6 +218,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/password-manager-guide">Password Manager Guide</Link> — unique passwords first, second factor second.
+            </li>
+            <li>
+              <Link className="underline" href="/recover-hacked-accounts-guide">Recover Hacked Accounts</Link> — what to do when 2FA was never enabled.
+            </li>
+            <li>
+              <Link className="underline" href="/backup-guide-3-2-1">3-2-1 Backup Guide</Link> — back up authenticator recovery codes off-site.
+            </li>
+            <li>
+              <Link className="underline" href="/email-scams-to-avoid">Email Scams to Avoid</Link> — phishing now targets one-time codes too.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Google Account Help (2-Step Verification);
         Apple Support (Apple Account two-factor authentication); Microsoft Support

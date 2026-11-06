@@ -199,6 +199,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/earbuds-buying-guide">Earbuds Buying Guide</Link> — start with buds worth pairing.
+            </li>
+            <li>
+              <Link className="underline" href="/video-call-setup-guide">Video Call Setup Guide</Link> — headsets that just work on calls.
+            </li>
+            <li>
+              <Link className="underline" href="/smart-tv-setup-guide">Smart TV Setup Guide</Link> — soundbars and speakers on the big screen.
+            </li>
+            <li>
+              <Link className="underline" href="/phone-overheating-fix-guide">Phone Overheating Fix Guide</Link> — stuck Bluetooth keeps phones hot.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Google Help (Android Bluetooth pairing);
         Apple Support (Bluetooth accessories); Windows Bluetooth troubleshooter

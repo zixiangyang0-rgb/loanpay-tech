@@ -209,6 +209,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/email-scams-to-avoid">Email Scams to Avoid</Link> — scams beat malware as the real threat.
+            </li>
+            <li>
+              <Link className="underline" href="/speed-up-slow-computer">Speed Up a Slow Computer</Link> — remove bloat that looks like an infection.
+            </li>
+            <li>
+              <Link className="underline" href="/password-manager-guide">Password Manager Guide</Link> — credential theft matters more than viruses now.
+            </li>
+            <li>
+              <Link className="underline" href="/backup-guide-3-2-1">3-2-1 Backup Guide</Link> — ransomware loses when backups exist.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: CISA Secure Our World guidance; Microsoft
         Support (Windows Security documentation); Apple Support (macOS security

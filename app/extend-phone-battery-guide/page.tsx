@@ -211,6 +211,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/phone-overheating-fix-guide">Phone Overheating Fix Guide</Link> — heat kills batteries, cool the phone down.
+            </li>
+            <li>
+              <Link className="underline" href="/free-up-phone-storage">Free Up Phone Storage</Link> — fewer background apps, more battery.
+            </li>
+            <li>
+              <Link className="underline" href="/screenshot-guide-all-devices">Screenshot Any Device</Link> — trim the screenshot clutter draining space.
+            </li>
+            <li>
+              <Link className="underline" href="/bluetooth-pairing-fix">Bluetooth Pairing Fix</Link> — accessories that sip instead of gulp power.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Apple Support (battery health and optimized
         charging); Google Help (Pixel battery and adaptive battery); on-device

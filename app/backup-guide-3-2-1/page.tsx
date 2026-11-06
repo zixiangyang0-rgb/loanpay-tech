@@ -221,6 +221,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/google-drive-basics">Google Drive Basics</Link> — use Drive as one of your three copies.
+            </li>
+            <li>
+              <Link className="underline" href="/cloud-storage-compared">Cloud Storage Compared</Link> — pick the right off-site home for backups.
+            </li>
+            <li>
+              <Link className="underline" href="/recover-hacked-accounts-guide">Recover Hacked Accounts</Link> — backups are the fallback when recovery fails.
+            </li>
+            <li>
+              <Link className="underline" href="/password-manager-guide">Password Manager Guide</Link> — back up the vault that holds every password.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: CISA backup and data-protection guidance;
         Apple Support (Time Machine); Microsoft Support (File History and backup

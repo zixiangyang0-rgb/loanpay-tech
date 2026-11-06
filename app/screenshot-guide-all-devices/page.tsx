@@ -215,6 +215,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/free-up-phone-storage">Free Up Phone Storage</Link> — do something useful with all those captures.
+            </li>
+            <li>
+              <Link className="underline" href="/gmail-organization-tips">Gmail Organization Tips</Link> — attach and share screenshots like a pro.
+            </li>
+            <li>
+              <Link className="underline" href="/google-drive-basics">Google Drive Basics</Link> — store annotated shots where you can find them.
+            </li>
+            <li>
+              <Link className="underline" href="/video-call-setup-guide">Video Call Setup Guide</Link> — share your screen instead of photographing it.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Apple Support (iPhone screenshots and
         screenshots on Mac); Google Help (Android capture); Microsoft Support

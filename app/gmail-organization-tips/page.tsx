@@ -198,6 +198,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/google-drive-basics">Google Drive Basics</Link> — attachments live in Drive, master both.
+            </li>
+            <li>
+              <Link className="underline" href="/email-scams-to-avoid">Email Scams to Avoid</Link> — filters help, spotting phishing helps more.
+            </li>
+            <li>
+              <Link className="underline" href="/screenshot-guide-all-devices">Screenshot Any Device</Link> — capture and file receipts fast.
+            </li>
+            <li>
+              <Link className="underline" href="/browser-privacy-settings-guide">Browser Privacy Settings</Link> — harden the browser your mail lives in.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Gmail Help (filter creation; labels and
         archiving); Settings paths verified in current Gmail web interface.

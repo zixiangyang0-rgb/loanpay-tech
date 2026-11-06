@@ -177,6 +177,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/bluetooth-pairing-fix">Bluetooth Pairing Fix</Link> — bought them, now connect them reliably.
+            </li>
+            <li>
+              <Link className="underline" href="/video-call-setup-guide">Video Call Setup Guide</Link> — mics that survive back-to-back meetings.
+            </li>
+            <li>
+              <Link className="underline" href="/phone-overheating-fix-guide">Phone Overheating Fix Guide</Link> — streaming audio should not cook the phone.
+            </li>
+            <li>
+              <Link className="underline" href="/robot-vacuum-buying-guide">Robot Vacuum Buying Guide</Link> — the same audition-first buying method.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: manufacturer spec pages (verify current
         models and prices officially); Bluetooth SIG profile documentation;

@@ -194,6 +194,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/home-office-tech-setup">Home Office Tech Setup</Link> — the full desk behind a great call.
+            </li>
+            <li>
+              <Link className="underline" href="/wifi-troubleshooting-guide">Wi-Fi Troubleshooting Guide</Link> — stable network first, lighting second.
+            </li>
+            <li>
+              <Link className="underline" href="/bluetooth-pairing-fix">Bluetooth Pairing Fix</Link> — get the headset connected before the meeting.
+            </li>
+            <li>
+              <Link className="underline" href="/earbuds-buying-guide">Earbuds Buying Guide</Link> — pick buds with mics that survive calls.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Zoom Support and Microsoft Teams help
         documentation; in-app audio/video settings verified against current Zoom,

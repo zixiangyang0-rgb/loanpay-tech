@@ -188,6 +188,23 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
+            <li>
+              <Link className="underline" href="/browser-privacy-settings-guide">Browser Privacy Settings</Link> — layer network filters with browser hardening.
+            </li>
+            <li>
+              <Link className="underline" href="/smart-tv-setup-guide">Smart TV Setup Guide</Link> — kid-safe profiles on the living-room TV.
+            </li>
+            <li>
+              <Link className="underline" href="/email-scams-to-avoid">Email Scams to Avoid</Link> — teach kids the phishing red flags.
+            </li>
+            <li>
+              <Link className="underline" href="/home-office-tech-setup">Home Office Tech Setup</Link> — one network, work and family zones separated.
+            </li>
+        </ul>
+      </nav>
       <p className="mono text-xs text-[#7d8f85]">
         Updated: October 2026 · Sources: Apple Support (Screen Time and families);
         Google Family Link Help; settings paths verified on current iOS and
