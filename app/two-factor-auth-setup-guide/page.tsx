@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { OfficialSources } from "../components/OfficialSources";
 
 export const metadata: Metadata = {
   title: "Two-Factor Authentication Setup Guide (2FA)",
@@ -218,6 +219,10 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <OfficialSources
+        gov={{ name: "FTC: What To Do If You Were Hacked", url: "https://consumer.ftc.gov/articles/what-do-if-you-were-hacked", blurb: "what to do when a second factor arrives too late" }}
+        authority={{ name: "NIST Digital Identity Guidelines (SP 800-63)", url: "https://pages.nist.gov/800-63-3/", blurb: "the federal standard behind MFA authenticator guidance" }}
+      />
       <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
         <p className="text-sm font-semibold">Keep reading</p>
         <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">

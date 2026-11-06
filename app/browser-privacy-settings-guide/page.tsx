@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { OfficialSources } from "../components/OfficialSources";
 
 export const metadata: Metadata = {
   title: "Browser Privacy Settings Guide: Stop Trackers",
@@ -202,6 +203,10 @@ export default function Page() {
           </details>
         ))}
       </div>
+      <OfficialSources
+        gov={{ name: "CISA: Keep Software Updated", url: "https://www.cisa.gov/secure-our-world/keep-software-updated", blurb: "why current browsers block more threats" }}
+        authority={{ name: "Chrome Help", url: "https://support.google.com/chrome/", blurb: "official Chrome privacy and safety settings" }}
+      />
       <nav aria-label="Related guides" className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
         <p className="text-sm font-semibold">Keep reading</p>
         <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed opacity-90">
