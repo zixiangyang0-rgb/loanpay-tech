@@ -5,6 +5,7 @@ const BASE = "https://tech.loanpaylogic.com";
 const ROUTES = [
   "",
   "/wifi-troubleshooting-guide",
+  "/wifi-troubleshooting-checklist-interactive",
   "/speed-up-slow-computer",
   "/password-manager-guide",
   "/two-factor-auth-setup-guide",
