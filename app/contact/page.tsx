@@ -69,6 +69,20 @@ export default function ContactPage() {
         immediately rather than waiting for a reply, since speed matters there.
       </p>
 
+      <h2>What happens after you hit send?</h2>
+      <p>
+        Every message lands in one shared inbox that Maya triages each weekday
+        morning. Corrections go straight to the writer&apos;s testing queue with a
+        same-week reproduction target; if we confirm the problem, the guide is
+        updated and re-stamped within days, and we reply with the fix. Reader
+        questions that match an existing guide get a link plus the exact section
+        to read; questions that reveal a coverage gap join the testing backlog,
+        and roughly a third of our guides started exactly that way. We do not
+        outsource replies, sell your address, or add you to any list — the inbox
+        exists to make the guides better, and every message is read by an editor,
+        not a filter.
+      </p>
+
       <h2>How do topic requests and partnerships work?</h2>
       <p>
         Topic requests are genuinely welcome — roughly a third of our guides
@@ -102,7 +116,7 @@ export default function ContactPage() {
         editorial team.
       </p>
       <p className="mono text-xs text-[#7d8f85]">
-        Updated: October 2026 · Sources: LoanPay Tech editorial policy; response
+        Updated: November 2026 · Sources: LoanPay Tech editorial policy; response
         times tracked from our own inbox metrics.
       </p>
     </article>

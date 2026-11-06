@@ -141,9 +141,10 @@ export default function AboutPage() {
         <Link href="/contact">contact page</Link>.
       </p>
       <p className="mono text-xs text-[#7d8f85]">
-        Updated: October 2026 · Sources: our published testing process and staff
+        Updated: November 2026 · Sources: our published testing process and staff
         records; menu paths cross-checked against Microsoft Support, Apple
-        Support, and Google Help documentation.
+        Support, and Google Help documentation. Security guides re-verified this
+        month by Maya Chen; all stamps below reflect the November 2026 pass.
       </p>
     </article>
   );
