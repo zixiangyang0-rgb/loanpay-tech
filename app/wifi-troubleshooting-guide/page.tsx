@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Byline, GuideSchema } from "../components/schema";
 
 export const metadata: Metadata = {
   title: "Wi-Fi Troubleshooting Guide: Fix Slow Drops Fast",
@@ -46,18 +47,14 @@ const faqs = [
 ];
 
 export default function Page() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((f) => ({
-      "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
-    })),
-  };
   return (
     <article className="prose-tech py-10">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <GuideSchema
+        title="Wi-Fi Troubleshooting Guide: Fix Slow Drops Fast"
+        description="Wi-Fi dropping or crawling? This troubleshooting guide walks you through proven fixes for dead zones and slow speeds on any router. Begin troubleshooting today."
+        slug="wifi-troubleshooting-guide"
+        faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))}
+      />
       <p className="mono text-xs text-[#7d8f85]">~/guides ./wifi-troubleshooting-guide --verbose</p>
       <div className="flex flex-wrap gap-2">
         <span className="badge">difficulty: easy</span>
@@ -65,6 +62,7 @@ export default function Page() {
         <span className="badge">tools: none</span>
       </div>
       <h1>Wi-Fi Troubleshooting Guide: Fix Slow Drops Fast</h1>
+      <Byline />
       <p className="mono text-sm text-[#34f27b]"><span className="prompt-dollar">diagnose wifi --slow --drops</span></p>
       <p>
         Wi-Fi troubleshooting follows a strict order, and skipping it is why most
